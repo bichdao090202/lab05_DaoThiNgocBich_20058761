@@ -1,8 +1,9 @@
-package iuh.edu.vn.springboot.entities;
+package iuh.edu.vn.springboot.backend.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -35,4 +36,5 @@ public class Candidate {
         this.phone = phone;
         this.address = address;
     }
+
 }

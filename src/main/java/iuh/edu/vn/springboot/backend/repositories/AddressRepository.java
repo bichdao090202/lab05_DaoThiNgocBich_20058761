@@ -1,6 +1,6 @@
-package iuh.edu.vn.springboot.repositories;
+package iuh.edu.vn.springboot.backend.repositories;
 
-import iuh.edu.vn.springboot.entities.Address;
+import iuh.edu.vn.springboot.backend.entities.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
 

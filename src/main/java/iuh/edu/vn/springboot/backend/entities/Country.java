@@ -1,4 +1,4 @@
-package iuh.edu.vn.springboot.entities;
+package iuh.edu.vn.springboot.backend.entities;
 
 public enum Country {
     USA("United States of America"),

@@ -1,5 +1,6 @@
-package iuh.edu.vn.springboot.entities;
+package iuh.edu.vn.springboot.backend.entities;
 
+import com.neovisionaries.i18n.CountryCode;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,12 +20,13 @@ public class Address {
     private long id;
     private String street;
     private String city;
-    private Country country;
+//    private Country country;
+    private CountryCode country;
     private String number;
     private String zipCode;
 
 
-    public Address(String street, String city, Country country, String number, String zipCode) {
+    public Address(String street, String city, CountryCode country, String number, String zipCode) {
         this.street = street;
         this.city = city;
         this.country = country;

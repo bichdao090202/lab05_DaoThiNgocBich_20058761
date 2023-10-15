@@ -1,4 +1,4 @@
-package iuh.edu.vn.springboot.entities;
+package iuh.edu.vn.springboot.backend.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
